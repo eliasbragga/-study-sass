@@ -40,10 +40,10 @@
         text-align: center;
         width: 130px;
         background-color: $cor-primaria;
-        color: $cor-secundaria;
+        color: white;
         letter-spacing: 1px;
         font-size: 12px;
-        font-weight: bold;
+        font-weight: 400;
         cursor: pointer;
         border-radius: 40px;
         transition: 0.4s;
@@ -51,6 +51,10 @@
             background-color: $cor-secundaria;
             color: $cor-primaria;
             transition: 0.4s;
+        }
+        &:active {
+            transition: 0.2s;
+            box-shadow: 1px 1px 2px inset black;
         }
     }
 }
